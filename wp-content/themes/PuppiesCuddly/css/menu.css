@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+.menu_geral{
+    width:790px;
+    overflow:hidden;
+    margin: 50px auto auto 30px;
+    float:left;
+}
+
+.menu_geral .navegacao{
+    width:100%;
+    min-width:700px;
+    overflow:hidden;
+    float:right;
+}
+
+.menu_geral .navegacao .menu{
+    width:700px;
+    min-width:700px;
+    overflow:hidden;
+    float:right;
+}
+
+.menu_geral .navegacao .menu li{
+    margin: auto 0 auto 80px;
+    overflow:hidden;
+    float:right;
+    list-style:none;
+    padding-top:30px;
+}
+
+.menu_geral .navegacao .menu li a{
+    font-size:16px;
+    text-transform:uppercase;
+    padding-top: 30px;
+}
+
+
+
+.menu_geral .navegacao .menu #menu-item-41 a{background:url(../images/menu_canil.png) no-repeat top center;}
+.menu_geral .navegacao .menu #menu-item-41 a:hover{background:url(../images/menu_canil1.png) no-repeat top center;}
+
+
+.menu_geral .navegacao .menu #menu-item-42 a{background:url(../images/menu_contato.png) no-repeat top center;}
+.menu_geral .navegacao .menu #menu-item-42 a:hover{background:url(../images/menu_contato1.png) no-repeat top center;}
+
+.menu_geral .navegacao .menu #menu-item-43 a{background:url(../images/menu_ninhadas.png) no-repeat top center;}
+.menu_geral .navegacao .menu #menu-item-43 a:hover{background:url(../images/menu_ninhadas1.png) no-repeat top center;}
+
+.menu_geral .navegacao .menu #menu-item-44 a{background:url(../images/menu_racas.png) no-repeat top center;}
+.menu_geral .navegacao .menu #menu-item-44 a:hover{background:url(../images/menu_racas1.png) no-repeat top center;}
+
+
+.menu_geral .navegacao .menu li a:link{color: #d5d5d5; text-decoration:none;}
+.menu_geral .navegacao .menu li a:visited{color: #d5d5d5; text-decoration:none;}
+.menu_geral .navegacao .menu li a:hover{color: #31b7af; transition-duration:0.5s;}
+.menu_geral .navegacao .menu li a:active{color: #d5d5d5; text-decoration:none;}

@@ -1,0 +1,244 @@
+/*
+Theme Name: Puppies Cuddly
+Theme URI: http://www.puppiescuddly.com.br
+Author: Rodrigo de Sousa Santos
+Author URI: http://www.rodrigodesousa.com
+Description: Canil
+Version: 1.0
+License: Rodrigo de Sousa Santos
+License URI: http://www.rodrigodesousa.com
+Tags: 
+Text Domain: Puppies Cuddly
+*/
+
+/*div, h1, h2, h3, h4, h5, h6, ul, li, a, p, form, input{border:solid 1px #000;}*/
+
+*{margin: 0px 0px 0px 0px; padding:0; font-family: 'Conv_OceanSansStd-Light';}
+
+body{}
+
+
+.geral{
+    width:1280px;
+    min-width:1280px;
+    overflow:hidden;
+    margin:auto auto auto auto;
+    background: #d8dada;
+}
+
+.topo{
+    width:1240px;
+    min-width:1240px;
+    margin:30px auto auto auto;
+    background: #414146;
+    height:140px;
+}
+
+.topo .logo{
+    width:355px;
+    min-width:355px;
+    float:left;
+    height:165px;
+    margin:-25px auto auto -8px;
+    background:url(images/logo.png) no-repeat center;
+}
+
+.topo .social{
+    width:40px;
+    min-width:40px;
+    float:right;
+    height:140px;
+    background:#535358;
+}
+
+.topo .social #facebook{
+    width:40px;
+    height:45px;
+    margin: auto auto auto auto;
+    background:url(images/facebook.png) no-repeat center;
+    cursor:pointer;
+}
+
+
+.topo .social #skype{
+    width:40px;
+    height:45px;
+    margin: auto auto auto auto;
+    background:url(images/skype.png) no-repeat center;
+    cursor:pointer;
+}
+
+.topo .social #twitter{
+    width:40px;
+    height:45px;
+    margin: auto auto auto auto;
+    background:url(images/twitter.png) no-repeat center;
+    cursor:pointer;
+}
+
+.topo .social #facebook:hover{background:url(images/facebook1.png) no-repeat center; transition-duration:0.5s;}
+.topo .social #skype:hover{background:url(images/skype1.png) no-repeat center; transition-duration:0.5s;}
+.topo .social #twitter:hover{background:url(images/twitter1.png) no-repeat center; transition-duration:0.5s;}
+
+.sub_topo{
+    width:1240px;
+    min-width:1240px;
+    margin:auto auto auto auto;
+    background: #31b7af;
+    overflow:hidden;
+}
+
+.sub_topo .titulo{
+    float:left;
+    width:1000px;
+    min-width:1000px;
+    margin:auto auto auto auto;
+    height:60px;
+}
+
+.sub_topo .titulo h1{
+    font-size:20px;
+    font-weight:100;
+    text-transform:uppercase;
+    color:#414146;
+    margin: 17px auto auto 20px;
+}
+
+.sub_topo .seta1{
+    width:40px;
+    min-width:40px;
+    float:right;
+    height:60px;
+    background:url(images/seta1.png) no-repeat center #6ad1cb;
+}
+
+.geral .slider{
+    overflow:hidden;
+    margin: 0px 19px 0px 19px;
+}
+
+.slider .conteudo_post{
+    float:left;
+    width: 698px;
+    height: 323px;
+}
+
+.slider .conteudo_post #page{
+    width:500px;
+    padding-top:40px;
+}
+
+
+
+.geral .slider .slide_show{
+    width: 535px;
+    height:315px;
+    float:right;
+    margin: 10px auto auto auto;
+    background:#FFFFFF;
+}
+.galerias{
+    margin: 28px 0px 0px 18px;
+}
+.galerias a{
+    margin: 0px 0px 0px 50px;
+}
+
+.geral {
+    width:1240px;
+    margin: auto auto auto auto;
+    overflow:hidden;
+}
+
+.geral .galerias .galeria{
+    width:650px;
+    height:325px;
+    float:left;
+}
+
+#title ul{
+    margin-top: 10px;
+    position: absolute;
+    float: left;
+}
+#title ul li{
+    position: relative;
+    list-style: none;
+    float: right;
+}
+#title a{
+    padding: 0px 135px 6px 0px;
+    text-decoration: none;
+    margin: 0px 0px 0px 97px;
+    color: #fff;
+}
+
+
+.geral .galerias .galeria #title{
+    width: 703px;
+    overflow:hidden;
+    float:left;
+    background: #5d5e62;
+}
+
+.geral .galerias .galeria #title #galeria{
+    width:300px;
+    overflow:hidden;
+    float:left;
+    background: #5d5e62;
+}
+
+.geral .galerias .galeria #title #galeria #gale{
+    width: 36px;
+    height:40px;
+    background:url(images/maquina.png) no-repeat center #31b7b0;
+}
+#gale{widht:80px;height: 20px;}
+#gale a{
+    text-align: center;
+}
+.geral .galerias .galeria #title #comprar{
+    width: 126px;
+    overflow:hidden;
+    float:left;
+    background: #5d5e62
+}
+
+.geral .galerias .galeria #title #comprar #comp{
+    width:35px;
+    height:40px;
+    background:url(images/carrinho.png) no-repeat center #31b7b0;
+}
+
+.geral .galerias #info{
+    width:550px;
+    height:325px;
+    float:right;
+}
+
+.link{
+    position: relative;
+    margin: 276px 0px 0px 2px;
+    padding: 30px 0px 0px 0px;
+    background-color: #fff;
+    width: 576px;
+    height: 20px;
+    z-index: 10;
+    position: absolute;
+}
+.link_geral{
+    position: absolute;
+    width: 665px;height:50px;
+    margin: -30px 0px 0px 575px;
+    padding: 0px 0px 0px 0px;
+    background-color: rgba(39, 39, 43, 0.68);
+    z-index: 10;
+
+}
+.link_geral a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 0px 0px 28px;
+    color: #fff;
+
+}
